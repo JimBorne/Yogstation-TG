@@ -31,8 +31,6 @@ Dabbing
 	if(A.properties["stage_rate"] >= 8) //increases symptom trigger rate
 		symptom_delay_min = 5
 		symptom_delay_max = 45
-	if(A.properties["stealth"] >= 5)
-		suppress_warning = TRUE
 
 /datum/symptom/dab/Activate(datum/disease/advance/A)
 	if(!..())
